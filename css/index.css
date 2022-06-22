@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "RubikRegular";
+    src: url(/assets/fonts/Rubik-Regular.woff) format("woff");
+    src: url(/assets/fonts/Rubik-Regular.ttf) format("truetype");
+}
+
+:root{
+    --fontRubikRegular: "RubikRegular";
+    --fontRubikRegular: "RubikRegular";
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: .5rem;
+
+}
+
+h1 {
+    width: 100%;
+    font-family: var(--fontRubikRegular);
+    text-align: center;
+    color: white;
+    margin: 0 0 1rem 0;
+}
+
+div {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+img {
+    width: 250px;
+    margin: .5rem;
+    border-radius: .5rem;
+}
